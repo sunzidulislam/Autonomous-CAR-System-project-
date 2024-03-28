@@ -41,3 +41,5 @@ This project utilizes the following components:
                   Here, h is the heading, 
                    ∅1, ∅2 are latitudes of point 1 and latitude of point 2,
                   𝜆1, 𝜆2 are longitude of point 1 and longitude of point 2. 
+## Collaboration
+  -Md. Rifat Morshed Rahat
