@@ -22,7 +22,6 @@ This project is used by the following companies:
 ## Project Implementation
 
 #### Distance Measurement using Haversine Formula-
-The haversine distance formula is given as follows. 
     ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛 (𝑑/2𝑅) = ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(∅2 − ∅2 ) + cos(∅1 ) cos(∅2 ) ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(𝜆2 – 𝜆1) 
 Solving for the value of d we get the distance formula-
     𝑑 = 2𝑅 sin-1 (√𝑠𝑖𝑛2 (∅2−∅1/ 2) + cos(∅1) cos(∅2 ) 𝑠𝑖𝑛2 ( 𝜆2− 𝜆1/ 2 ) ) 
