@@ -24,23 +24,19 @@ This project utilizes the following components:
 
 ### Distance Measurement using Haversine Formula
 
-The Haversine formula is used to calculate the distance between two coordinates on Earth's surface. It takes into account the curvature of the Earth and provides accurate distance calculations. The formula used in this project is:
+   ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛 (𝑑/2𝑅) = ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(∅2 − ∅2 ) + cos(∅1 ) cos(∅2 ) ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(𝜆2 – 𝜆1) 
 
-\[ d = 2R \sin^{-1}\left(\sqrt{\sin^2\left(\frac{\phi_2 - \phi_1}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\lambda_2 - \lambda_1}{2}\right)}\right) \]
-
-Where:
-- \( d \) is the distance between two coordinates
-- \( R \) is the radius of the Earth (approximately 6371 km or 3961 miles)
-- \( \phi_1, \phi_2 \) are the latitudes of point 1 and point 2 respectively
-- \( \lambda_1, \lambda_2 \) are the longitudes of point 1 and point 2 respectively
+    𝑑 = 2𝑅 sin-1 (√𝑠𝑖𝑛2 (∅2−∅1/ 2) + cos(∅1) cos(∅2 ) 𝑠𝑖𝑛2 ( 𝜆2− 𝜆1/ 2 ) ) 
+    That is Solving for the value of d we get the distance formula.
+Here,
+  d is the distance between two co-ordinates, 
+  R is the radius of earth i.e. 6371 km or 3961 miles
+  ∅1, ∅2 are latitudes of point 1 and latitude of point 2 
+  𝜆1, 𝜆2 are longitude of point 1 and longitude of point 2 
 
 ### Heading Angle Calculation
 
-The heading angle between two coordinates is calculated using the following formula:
-
-\[ h = \text{atan2}\left(\sin(\lambda_2 - \lambda_1) \cdot \cos(\phi_2), \cos(\phi_1)\sin(\phi_2) - \sin(\phi_1)\cos(\phi_2)\cos(\lambda_2 - \lambda_1)\right) \]
-
-Where:
-- \( h \) is the heading angle
-- \( \phi_1, \phi_2 \) are the latitudes of point 1 and point 2 respectively
-- \( \lambda_1, \lambda_2 \) are the longitudes of point 1 and point 2 respectively
+  ℎ = 𝑎𝑡𝑎𝑛2(sin(𝜆2 – 𝜆1 ) cos(∅2 ) , cos(∅1) sin(∅2) − sin(∅1) cos(∅2) cos(𝜆2− 𝜆1))
+                  Here, h is the heading, 
+                   ∅1, ∅2 are latitudes of point 1 and latitude of point 2,
+                  𝜆1, 𝜆2 are longitude of point 1 and longitude of point 2. 
