@@ -25,7 +25,9 @@ This project utilizes the following components:
 ### Distance Measurement using Haversine Formula
 
    ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛 (𝑑/2𝑅) = ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(∅2 − ∅2 ) + cos(∅1 ) cos(∅2 ) ℎ𝑎𝑣𝑒𝑟𝑠𝑖𝑛(𝜆2 – 𝜆1)
+   
    𝑑 = 2𝑅 sin-1 (√𝑠𝑖𝑛2 (∅2−∅1/ 2) + cos(∅1) cos(∅2 ) 𝑠𝑖𝑛2 ( 𝜆2− 𝜆1/ 2 ) ) 
+   
       Here,
          d is the distance between two co-ordinates, 
          R is the radius of earth i.e. 6371 km or 3961 miles
