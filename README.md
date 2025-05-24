@@ -41,5 +41,21 @@ This project utilizes the following components:
                   Here, h is the heading, 
                    ∅1, ∅2 are latitudes of point 1 and latitude of point 2,
                   𝜆1, 𝜆2 are longitude of point 1 and longitude of point 2. 
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sunzidulislam/Autonomous-CAR-System-project-.git
+
+2. Assemble the hardware components as per the system design.
+
+3. Upload the provided Arduino code to the Arduino Uno R3.
+
+4. Pair the HC-05 Bluetooth module with your smartphone or computer.
+
+5. Use a Bluetooth terminal application to send commands and control the robot.
+
 ## Project Partner
   -Md. Rifat Morshed Rahat
